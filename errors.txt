@@ -1,0 +1,7 @@
+ 5:15  error  Strings must use singlequote        quotes
+  2:1   error  'myVar' is constant                 no-const-assign
+  4:10  error  'myFunc' is defined but never used  no-unused-vars
+  5:15  error  Strings must use singlequote        quotes
+
+✖ 3 problems (3 errors, 0 warnings)
+  1 error and 0 warnings potentially fixable with the `--fix` option.

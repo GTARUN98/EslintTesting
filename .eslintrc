@@ -1,0 +1,26 @@
+{
+  "env": {
+    "browser": true, // Enables global variables that are specific to web browsers (e.g. document, window)
+    "es6": true // Enables ES6 syntax (e.g. arrow functions, let and const)
+  },
+  "extends": "eslint:recommended", // Inherits recommended rules from ESLint
+  "parserOptions": {
+    "ecmaVersion": 2018 // Specifies the version of ECMAScript to use (ES2018)
+  },
+  "rules": {
+    "no-console": "off", // Allows console statements for debugging purposes
+    "semi": ["error", "always"], // Requires semicolons at the end of statements
+    "quotes": ["error", "single"], // Requires single quotes for string literals
+    "indent": ["error", 2], // Requires indentation of 2 spaces
+    "no-unused-vars": ["error", { "args": "none" }], // Throws an error if declared variables are not used
+    "no-undef": "error", // Throws an error if undeclared variables are used
+    "no-multiple-empty-lines": ["error", { "max": 2 }], // Throws an error if there are more than 2 consecutive empty lines
+    "no-trailing-spaces": "error", // Throws an error if there are trailing spaces at the end of a line
+    "no-unused-expressions": "error", // Throws an error if unused expressions are detected
+    "max-len": ["error", { "code": 40 }], // Throws an error if a line exceeds 10 characters
+    "camelcase": "error" // Requires camelCase naming convention for variables, functions, and object properties
+  }
+}
+  
+  
+  
